@@ -10,10 +10,8 @@ export const Home = () => {
         </h1>
 
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          I'm Katanawka, a developer specializing in intuitive apps and
-          websites. With expertise in Java, Kotlin, and React, I build scalable
-          mobile apps and dynamic web experiences, focusing on functionality and
-          seamless user experience.
+          Katanawka — a developer focused on creating intuitive apps and
+          websites. Mobile and web solutions with a user-friendly interface.
         </p>
         <div className="flex justify-center space-x-4">
           <a
