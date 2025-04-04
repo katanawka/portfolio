@@ -27,6 +27,13 @@ export const Projects = () => {
                 link: "https://github.com/katanawka/portfolio",
                 techStack: ["React", "TailwindCSS", "JavaScript"],
               },
+              {
+                title: "GitHelper",
+                description:
+                  "A handy tool for developers to quickly generate Git commands, learn best practices, and manage repositories with ease.",
+                link: "https://githelper.netlify.app/",
+                techStack: ["React", "TailwindCSS", "TypeScript"],
+              },
             ].map((project, index) => (
               <a
                 key={index}
