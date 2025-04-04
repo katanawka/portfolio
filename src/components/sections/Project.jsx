@@ -30,7 +30,7 @@ export const Projects = () => {
               {
                 title: "GitHelper",
                 description:
-                  "A handy tool for developers to quickly generate Git commands, learn best practices, and manage repositories with ease.",
+                  "A quick Git tutorial site for GitHub with quick explanations",
                 link: "https://githelpers.netlify.app/",
                 techStack: ["React", "TailwindCSS", "TypeScript"],
               },
