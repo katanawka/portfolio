@@ -1,7 +1,7 @@
 # 🌟 My Portfolio
 
 <div align="center">
-  <img height="500" src="https://i.ibb.co/zTBPgGDY/photo-2025-04-04-20-42-47.jpg"  />
+  <img height="400" src="https://i.ibb.co/zTBPgGDY/photo-2025-04-04-20-42-47.jpg"  />
 </div>
 
 ###
