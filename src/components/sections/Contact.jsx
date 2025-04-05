@@ -18,7 +18,7 @@ export const Contact = () => {
     console.log("Отправка данных:", formData);
 
     emailjs
-      .send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY) 
+      .send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY)
       .then(() => {
         alert("Message Sent!");
         setFormData({ from_name: "", email: "", message: "" });
@@ -32,15 +32,16 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-12 xl:px-32 py-16 md:py-24"
     >
       <RevealOnScroll>
-        <div className="px-4 w-150">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent text-center">
+        <div className="w-full max-w-screen-xl">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
-          <form className="space-y-6" onSubmit={handleSubmit}>
-            <div className="relative">
+
+          <form className="grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={handleSubmit}>
+            <div className="col-span-1">
               <input
                 type="text"
                 id="from_name"
@@ -55,7 +56,7 @@ export const Contact = () => {
               />
             </div>
 
-            <div className="relative">
+            <div className="col-span-1">
               <input
                 type="email"
                 id="email"
@@ -70,7 +71,7 @@ export const Contact = () => {
               />
             </div>
 
-            <div className="relative">
+            <div className="col-span-1 md:col-span-2">
               <textarea
                 id="message"
                 name="message"
@@ -85,12 +86,14 @@ export const Contact = () => {
               />
             </div>
 
-            <button
-              type="submit"
-              className="w-full bg-gradient-to-r from-[#63c5da] to-[#3d95d1] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Send Message
-            </button>
+            <div className="col-span-1 md:col-span-2">
+              <button
+                type="submit"
+                className="w-full bg-gradient-to-r from-[#63c5da] to-[#3d95d1] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              >
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
       </RevealOnScroll>
