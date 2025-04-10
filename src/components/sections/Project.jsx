@@ -34,6 +34,13 @@ export const Projects = () => {
                 link: "https://githelpers.netlify.app/",
                 techStack: ["React", "TailwindCSS", "TypeScript"],
               },
+              {
+                title: "TapTapMe",
+                description:
+                  "TapTapMe is a typing trainer web app to help users improve their touch typing speed and accuracy.",
+                link: "https://github.com/katanawka/taptapme-ts",
+                techStack: ["React", "TailwindCSS", "TypeScript"],
+              },
             ].map((project, index) => (
               <a
                 key={index}
@@ -47,6 +54,11 @@ export const Projects = () => {
                   {project.title === "GitHelper" && (
                     <span className="text-sm font-semibold bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent animate-pulse">
                       {`{ POPULAR }`}
+                    </span>
+                  )}
+                  {project.title === "TapTapMe" && (
+                    <span className="text-sm font-semibold bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent animate-pulse">
+                      {`{ NEW }`}
                     </span>
                   )}
                 </h3>
