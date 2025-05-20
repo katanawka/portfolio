@@ -14,13 +14,6 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
             {[
               {
-                title: "Metal App",
-                description:
-                  "Metal is an innovative social manager that combines the functions of a familiar messenger with unique opportunities for users.",
-                link: "https://github.com/tup0g/Metal-App",
-                techStack: ["Kotlin", "XML", "PostgreSQL"],
-              },
-              {
                 title: "React Portfolio",
                 description:
                   "A modern and responsive portfolio website built using React to showcase projects and skills.",
@@ -35,11 +28,11 @@ export const Projects = () => {
                 techStack: ["React", "TailwindCSS", "TypeScript"],
               },
               {
-                title: "TapTapMe",
+                title: "Animacy",
                 description:
-                  "TapTapMe is a typing trainer web app to help users improve their touch typing speed and accuracy.",
-                link: "https://github.com/katanawka/taptapme-ts",
-                techStack: ["React", "TailwindCSS", "TypeScript"],
+                  "Anime Community - Coming Soon...",
+                link: "#",
+                techStack: ["React", "TailwindCSS", "Typescript"],
               },
             ].map((project, index) => (
               <a
@@ -56,9 +49,9 @@ export const Projects = () => {
                       {`{ POPULAR }`}
                     </span>
                   )}
-                  {project.title === "TapTapMe" && (
+                  {project.title === "Animacy" && (
                     <span className="text-sm font-semibold bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent animate-pulse">
-                      {`{ NEW }`}
+                      {`{ COMING SOON }`}
                     </span>
                   )}
                 </h3>

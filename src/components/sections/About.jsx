@@ -19,7 +19,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Hi, I'm Katanawka, a passionate developer who thrives on creating
+              Hi, I'm Katana, a passionate developer who thrives on creating
               intuitive and efficient digital experiences. With a background in
               Java, Kotlin, and React, I specialize in building scalable mobile
               apps and dynamic websites that not only look good but work

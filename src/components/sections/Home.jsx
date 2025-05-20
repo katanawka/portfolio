@@ -9,11 +9,11 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#63c5da] to-[#3d95d1] bg-clip-text text-transparent leading-right">
-            Coded BY. Katanawka
+            Coded BY. Katana
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Katanawka — a developer focused on creating intuitive apps and
+            Katana — a developer focused on creating intuitive apps and
             websites. Mobile and web solutions with a user-friendly interface.
           </p>
           <div className="flex justify-center space-x-4">
